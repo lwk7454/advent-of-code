@@ -1,5 +1,4 @@
 import fs from 'fs'
-import math from 'math'
 
 export function solve1(file) {
   const data = fs.readFileSync(file, 'utf8').split("\n").filter((l) => !!l)
